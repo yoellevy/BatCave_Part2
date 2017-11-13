@@ -1,0 +1,20 @@
+General Grade Distribution:
++15 - Code is compiling
++15 - Compiling & not raising exceptions/errors
++10 - Compiling & no logical errors & bugs
++5 - Compiling & no warnings
++5 - Consistent coding conventions & readability
+
+Exercise Specific:
++5 - README (student details and description of anything extra or bonuses you've implemented)
++5 - Add 3rd chunk to ScrollingBG.
++2 - Modify the initial cave.
++5 - Add an AudioSource with looping music.
++8 - Add an AudioSource for flapping wings sound
++10 - Add an AudioEvent that will play when the game starts.
++15 - Use a CompositeBatController to get input from the Mouse and Keyboard.
+
+Bonuses:
++10 - Improve the cave generation (e.g. don’t allow narrow slopes)
++20 - Implement a BatAIController (doesn’t have to be a very good one)
+
