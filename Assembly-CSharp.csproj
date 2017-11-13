@@ -50,6 +50,8 @@
      <Compile Include="Assets\Scripts\ThirdParty\Triangulator.cs" />
      <Compile Include="Assets\Scripts\batcave\Bat.cs" />
      <Compile Include="Assets\Scripts\batcave\BatController.cs" />
+     <Compile Include="Assets\Scripts\batcave\BatKeyboardController.cs" />
+     <Compile Include="Assets\Scripts\batcave\BatMouseController.cs" />
      <Compile Include="Assets\Scripts\batcave\CaveChunk.cs" />
      <Compile Include="Assets\Scripts\batcave\CaveGenerator.cs" />
      <Compile Include="Assets\Scripts\batcave\CompositeBatController.cs" />

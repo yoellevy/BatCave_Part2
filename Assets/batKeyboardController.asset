@@ -8,10 +8,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ffefaf3bf4f24509b7a48b8fb662c91, type: 3}
-  m_Name: startSound
+  m_Script: {fileID: 11500000, guid: 61ee946f94affa541be52a278b20ea05, type: 3}
+  m_Name: batKeyboardController
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: 51bf50f8d4b924daf900f7ab72bbf200, type: 3}
-  volume: 1
-  pitch: 1
-  stereoPan: 0

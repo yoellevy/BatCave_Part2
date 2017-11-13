@@ -203,6 +203,7 @@ MonoBehaviour:
   hitAudioEvent: {fileID: 11400000, guid: a94724cd1c25141f69158b55c6b5767c, type: 2}
   isAlive: 0
   isInvulnerable: 0
+  batController: {fileID: 11400000, guid: 2cae842a9acc6f1439f5186aca4ae0ca, type: 2}
 --- !u!212 &212731163353515394
 SpriteRenderer:
   m_ObjectHideFlags: 1

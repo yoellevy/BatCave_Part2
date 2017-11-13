@@ -51,6 +51,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34d43b34f6daa4eb9af000c0f7bae815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameStartAudioEvent: {fileID: 11400000, guid: 38449f3b7fae3204ca3410ea3fb85d8b,
+    type: 2}
   startGameUi: {fileID: 0}
   gameOverUi: {fileID: 0}
   scrollersToUpdate:

@@ -15,8 +15,8 @@ namespace BatCave
     {
         public static event Action OnGameStarted;
         public static event Action OnGameReset;
+        [SerializeField] AudioEvent GameStartAudioEvent;
 
-        [SerializeField] AudioEvent startAudioEvent;
         [SerializeField] GameObject startGameUi;
         [SerializeField] GameObject gameOverUi;
         [SerializeField] EndlessWorldScroller[] scrollersToUpdate;
@@ -93,7 +93,7 @@ namespace BatCave
                 return false;
             }
 
-            // EXERCISE: Play game started audio event.
+            GameStartAudioEvent.Play();
 
             hasStarted = true;
             isGameOver = false;
@@ -102,7 +102,6 @@ namespace BatCave
 
             if (OnGameStarted != null)
             {
-                //startAudioEvent.Play();
                 OnGameStarted();
             }
             return true;
