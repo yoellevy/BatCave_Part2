@@ -10,9 +10,17 @@ namespace Assets.Scripts.batcave
     [CreateAssetMenu(menuName = "Bat Controller/keyboard")]
     class BatKeyboardController : BatController
     {
+        bool flyUp;
         public override bool WantsToFlyUp()
         {
-            return Input.GetKeyDown(KeyCode.Space);
+            if(Input.GetKeyDown(KeyCode.Space))
+            {
+                flyUp = true;
+            } else if(Input.GetKeyUp(KeyCode.Space))
+            {
+                flyUp = false;
+            }
+            return flyUp;
         }
     }
 }
